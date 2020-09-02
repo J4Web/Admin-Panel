@@ -80,63 +80,75 @@
   <br />
   <br />
   <br />
-  <div class="ui container">
-    <form id="form" action="/add" class="ui form" method="POST">
-      <div class="three fields">
-        <div class="field">
-          <label for="label" class="ui header green">Enter club name</label>
-          <input type="text" name="name" placeholder="Enter club name" value="" id="name" />
-        </div>
-        <div class="field">
-          <label for="label" class="ui header green">Enter players name</label>
-          <input type="text" name="players" placeholder="Enter players name" value="" id="players" />
-        </div>
-        <div class="field">
-          <label for="label" class="ui header green">Enter coach name</label>
-          <input type="text" name="coach" placeholder="Enter coach name" value="" id="coach" />
-        </div>
-      </div>
-      <!-- <div class=" one fields"> -->
-      <div class="field fluid">
-        <button type="submit" class="ui button fluid green">Save</button>
-      </div>
-      <!-- </div> -->
-    </form>
-    <br />
-    <br />
-    <br />
 
-    <table class="ui table green">
-      <thead>
-        <tr>
-          <th>Club Name</th>
-          <th>Players</th>
-          <th>Coach</th>
-          <th>Edit</th>
-          <th>Delete</th>
-        </tr>
-      </thead>
-      <tbody>
 
-        <tr>
-          <td id="teamName">Name</td>
-          <td id="teamPlayers">Players</td>
-          <td id="teamCoach">Coach</td>
-          <td>
-            <a class="ui button green editBtn" href=""><i class="edit white icon"></i></a>
-          </td>
-          <td>
-            <a class="ui button green actnBtn" href=""><i id="delete" class="minus red icon"></i></a>
-          </td>
-        </tr>
+  <div id="placeing">
+    <div class="ui container">
+      <form id="form" action="/add" class="ui form" method="POST">
+        <div class="three fields">
+          <div class="field">
+            <label for="label" class="ui header dark">
+              <h4>Enter club name</h4>
+            </label>
+            <input type="text" name="name" placeholder="Enter club name" value="" id="name" />
+          </div>
+          <div class="field">
+            <label for="label" class="ui header black">
+              <h4>Enter players name</h4>
+            </label>
+            <input type="text" name="players" placeholder="Enter players name" value="" id="players" />
+          </div>
+          <div class="field">
+            <label for="label" class="ui header black">
+              <h4>Enter coach name</h4>
+            </label>
+            <input type="text" name="coach" placeholder="Enter coach name" value="" id="coach" />
+          </div>
+        </div>
+        <!-- <div class=" one fields"> -->
+        <div class="field fluid">
+          <button type="submit" class="ui button fluid blue ">Save</button>
+        </div>
+        <!-- </div> -->
+      </form>
+      <br />
+      <br />
+      <br />
 
-      </tbody>
-    </table>
+      <table class="ui table blue sep">
+        <thead>
+          <tr>
+            <th>Club Name</th>
+            <th>Players</th>
+            <th>Coach</th>
+            <th>Edit</th>
+            <th>Delete</th>
+          </tr>
+        </thead>
+        <tbody>
+
+          <tr>
+            <td id="teamName">Name</td>
+            <td id="teamPlayers">Players</td>
+            <td id="teamCoach">Coach</td>
+            <td>
+              <a class="ui button blue editBtn" href=""><i class="edit white icon"></i></a>
+            </td>
+            <td>
+              <a class="ui button blue actnBtn" href=""><i id="delete" class="minus red icon"></i></a>
+            </td>
+          </tr>
+
+        </tbody>
+      </table>
+    </div>
   </div>
+
+
   </div>
 
 
-  <footer>
+  <footer id="footer">
 
 
 
@@ -144,6 +156,7 @@
     2020.
 
   </footer>
+  <script src="js/main.js"></script>
 </body>
 
 </html>
