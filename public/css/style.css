@@ -1,8 +1,46 @@
-.site{
+.site {
     width: 100%;
     height: 100vh;
-    background-image: url(../img/bg.jpg);
+    background-image: url(../img/blue.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+
+}
+
+/* body {
+    background: url(../img/bg.jpg),
+        /* linear-gradient(45deg, #8500ff, #5acaff); 
+}
+
+
+*/
+
+body {
+    font-family: Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+#footer {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    color: #fff;
+    padding-bottom: 60px;
+    padding-top: 5px;
+    background-color: #343a40;
+}
+
+#placeing {
+    position: relative;
+    align-items: center;
+    margin-top: 10.5rem;
+
+}
+
+.sep {
+    padding: 3rem;
+    margin-top: 2rem;
 }
